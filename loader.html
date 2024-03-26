@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preloader Example</title>
+  <link rel="stylesheet" href="loader.css">
+</head>
+<body>
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Your website content goes here -->
+
+  <script>
+    // Simulate content loading delay
+    setTimeout(function() {
+      document.querySelector('.preloader').style.display = 'none';
+    }, 3000); // Change 3000 to the time you want to simulate the loading delay
+  </script>
+</body>
+</html>
