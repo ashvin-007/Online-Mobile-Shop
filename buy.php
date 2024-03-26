@@ -5,12 +5,6 @@ include "connection.php";
 
 session_start();
 
-// // Check if the "username" key exists in the $_SESSION array
-// if (isset($_SESSION["username"])) {
-//     echo "Welcome " . $_SESSION["username"];
-// } else {
-//     echo "Username not set in the session.";
-// }
 
 
 $userprofile = $_SESSION["username"];
@@ -498,7 +492,7 @@ if ($userprofile == false) {
 
 <?php
 
-// if (isset($_POST['submit'])) {
+
 //   $fName = $_POST['fname'];
 //   $lName = $_POST['lname'];
 //   $email = $_POST['email'];

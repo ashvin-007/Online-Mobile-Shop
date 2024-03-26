@@ -122,31 +122,7 @@ session_start();
       box-shadow: none;
     }
 
-    /* @media screen  and (max-width:600px) {
-  form{
-    width:90%;
-    margin:10px auto;
-  }
-  tr{
-    display:flex;
-    flex-direction:column;
-  }
-  th,td{
-    width:80%;
-    margin:5px auto;
-  }
-  .classMarginLeft{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    border:1px solid;
-    width:100%;
-    
-  }
-  .colorSpan{
-   
-  }
-} */
+  
   </style>
 </head>
 <?php
